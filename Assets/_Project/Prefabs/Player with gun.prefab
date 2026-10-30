@@ -309,10 +309,34 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7631645293180535366, guid: a2a7b783a3f51064dbec9617df24c501, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4025275700711579053}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7173914008559289440, guid: a2a7b783a3f51064dbec9617df24c501, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4512163761744392597}
   m_SourcePrefab: {fileID: 100100000, guid: a2a7b783a3f51064dbec9617df24c501, type: 3}
 --- !u!4 &2738187400627682383 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7631645293180535366, guid: a2a7b783a3f51064dbec9617df24c501, type: 3}
   m_PrefabInstance: {fileID: 5482835795508346377}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3429542601902144105 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7173914008559289440, guid: a2a7b783a3f51064dbec9617df24c501, type: 3}
+  m_PrefabInstance: {fileID: 5482835795508346377}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4512163761744392597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3429542601902144105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: e228731bd49c3894fb4467d90feb8a18, type: 2}
